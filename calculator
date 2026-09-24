@@ -1,0 +1,16 @@
+def calculator(): 
+    num1=float (input('enter the number1: '))
+    operator=input('enter mathematical operation (+-*/)')
+    num2= float(input('enter the number2: '))
+    if operator=='+': 
+        result=num1+num2
+    elif operator== '-':   
+        result=num1-num2
+    elif operator== '*': 
+        result=num1*num2 
+    elif opeator=='/': 
+        result=num1/num2 
+    else: 
+    print("error")
+    print(f"result = {round(result,3)}")        
+calculator() 
